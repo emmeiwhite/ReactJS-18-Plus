@@ -1,6 +1,7 @@
 function Book({ id, img, title, author, handleBtnClick }) {
   return (
     <article className="book-card">
+      <span className="book-number">#{id}</span>
       <img
         src={img}
         alt="a book"
