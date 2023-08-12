@@ -23,7 +23,7 @@ function App() {
   return (
     <main className="app">
       <h1>Books</h1>
-      {booksJSX}
+      <section className="books-wrapper">{booksJSX}</section>
     </main>
   );
 }

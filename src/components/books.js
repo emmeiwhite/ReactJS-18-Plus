@@ -1,27 +1,24 @@
+import img1 from "./../assets/img1.jpg";
+import img2 from "./../assets/img2.jpg";
+import img3 from "./../assets/img3.jpg";
 export const books = [
   {
     id: 1,
-    img: "https://example.com/book1.jpg",
-    title: "Book 1",
-    author: "Author 1",
+    img: img1,
+    title: "One Shot",
+    author: "Prashant ",
   },
   {
     id: 2,
-    img: "https://example.com/book2.jpg",
-    title: "Book 2",
+    img: img2,
+    title: "ikigai",
     author: "Author 2",
   },
   {
     id: 3,
-    img: "https://example.com/book3.jpg",
-    title: "Book 3",
+    img: img3,
+    title: "Atomic Habits",
     author: "Author 3",
-  },
-  {
-    id: 4,
-    img: "https://example.com/book4.jpg",
-    title: "Book 4",
-    author: "Author 4",
   },
 ];
 
