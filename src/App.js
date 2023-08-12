@@ -22,7 +22,7 @@ function App() {
 
   return (
     <main className="app">
-      <h1>Books</h1>
+      <h1>Amazon Best Sellers </h1>
       <section className="books-wrapper">{booksJSX}</section>
     </main>
   );
